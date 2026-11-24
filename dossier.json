@@ -1,0 +1,7 @@
+{
+ "entry_txt": "Official Bigfoot Photo Blurrer",
+ "chars": 30,
+ "files": {
+  "main.ts": "// Weirdest Job Title entry: writes one job title, the same bytes on every run.\n// The twist: every Bigfoot photo is blurry because someone is paid to blur them.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst TITLE = \"Official Bigfoot Photo Blurrer\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", TITLE);\n"
+ }
+}
