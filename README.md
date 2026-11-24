@@ -6,6 +6,6 @@
 
 An entry for make.fun's [Weirdest Job Title: Blind Judge Showdown](https://make.fun/bounty/u-rusdyxbt-weirdest-job-title-blind-judge-showdown-552d7922). `main.ts` writes one job title to `/output/entry.txt`, the same bytes on every run:
 
-> Official Bigfoot Photo Blurrer
+> Shopping Cart Wobble Installer
 
 Run: `node main.ts` (Node 22.18+). License: MIT.

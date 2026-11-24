@@ -1,7 +1,7 @@
 {
- "entry_txt": "Official Bigfoot Photo Blurrer",
+ "entry_txt": "Shopping Cart Wobble Installer",
  "chars": 30,
  "files": {
-  "main.ts": "// Weirdest Job Title entry: writes one job title, the same bytes on every run.\n// The twist: every Bigfoot photo is blurry because someone is paid to blur them.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst TITLE = \"Official Bigfoot Photo Blurrer\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", TITLE);\n"
+  "main.ts": "// Weirdest Job Title entry: writes one job title, the same bytes on every run.\n// The twist: every shopping cart has one wobbly wheel because someone fits it on purpose.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst TITLE = \"Shopping Cart Wobble Installer\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", TITLE);\n"
  }
 }
